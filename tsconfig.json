@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "target": "ES6",
+        "module": "CommonJS",
+        "strict": true,
+        "esModuleInterop": true,
+        "lib": ["ES2017", "DOM"],
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "declaration": true,
+        "jsx": "react",
+        "reactNamespace": "uwuTsx"
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "dist"]
+}
